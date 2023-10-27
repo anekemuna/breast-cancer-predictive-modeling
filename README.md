@@ -12,9 +12,9 @@ The repository contains the following:
 
 The [Breast Cancer dataset](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic) used in this project is sourced from UC Irvine Machine Learning Repository and consists of 569 instances with 30 features.
 
-## Files
+## File(s)
 
-- `data_preprocessing.ipynb`
+- `breast_cancer_predictions.ipynb`
   
 ## Usage
 
@@ -23,7 +23,7 @@ To use the code in this repository, follow these steps:
 1. Clone the repository using the command:
 
 ```
-git clone https://github.com/your_username/repository_name.git
+git clone https://github.com/anekemuna/breast-cancer-predictive-modeling.git
 ```
 
 2. Run the Jupyter Notebook files in the specified order to replicate the analysis and model implementation.
@@ -32,17 +32,17 @@ git clone https://github.com/your_username/repository_name.git
 
 The SVM and Random Forest models achieved the following performance metrics:
 
-- SVM Accuracy: [accuracy_score]
-- RF Accuracy: [accuracy_score]
-- SVM F1 Score: [f1_score]
-- RF F1 Score: [f1_score]
+- RF Accuracy: 0.97
+- SVM Accuracy: 0.95
+- RF F1-Score: 0.97
+- SVM F1-Score: 0.95
 
 ## Acknowledgements
 
-I acknowledge the [source_name] for providing the Breast Cancer dataset used in this project.
+I acknowledge UC Irvine for providing the Breast Cancer dataset used in this project.
 
 ## License
 
-This project is licensed under the [MIT License] - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
